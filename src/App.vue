@@ -1,97 +1,69 @@
 <template>
-  <Construct v-if="inConstruct" />
+  <Construct v-if="inConstruction" />
   <template v-else>
     <header>
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
       </nav>
     </header>
 
-    <RouterView />
+    <RouterView id="router-view" />
   </template>
 </template>
 
 <script>
 import Construct from "@/views/Construct.vue";
+import defaults from "@/mixins/defaults.vue";
 
 export default {
   name: "App",
   components: { Construct },
-  inject: ["globals"],
+  mixins: [defaults],
   data() {
     return {};
   },
   methods: {},
-  computed: {
-    inConstruct() {
-      return this.globals.inConstruction;
-    }
+  computed: {},
+  mounted() {
   },
   watch: {}
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "s@/defaults";
+
 header {
   line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
 }
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
-  margin-top: 2rem;
-}
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
+  a {
+    display: inline-block;
+    padding: 0 1rem;
+    border: none {
+      left: $border-style;
+    }
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
+    &.router-link-exact-active {
+      color: var(--color-text);
 
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
+      &:hover {
+        background-color: transparent;
+      }
+    }
 
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    &:first-of-type {
+      border: 0;
+    }
   }
+}
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
+#router-view {
+  height: $maxContentHeight;
 }
 </style>

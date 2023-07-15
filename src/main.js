@@ -1,4 +1,4 @@
-import "./assets/main.css";
+import "a@/main.scss"
 
 import { createApp } from "vue";
 import { createPinia } from "pinia";
@@ -8,12 +8,8 @@ import router from "./router";
 
 const app = createApp(App);
 
-const globals = {
-  inConstruction: true,
-}
 
 app.use(createPinia());
 app.use(router);
-app.provide("globals", globals);
 
 app.mount("#app");

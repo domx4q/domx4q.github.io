@@ -1,0 +1,5 @@
+@import "variables";
+
+$border-style: 1px solid $border-color;
+
+$maxContentHeight: calc(100vh - (4rem + 24px));
