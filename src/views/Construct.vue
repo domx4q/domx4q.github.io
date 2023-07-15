@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <main>
     <h1>Under Construction</h1>
     <p>
       This site is currently under construction. Please check back later.
     </p>
-  </div>
+  </main>
 </template>
 
 <script>
@@ -14,12 +14,14 @@ export default {
 };
 </script>
 
-<style scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: #f2f2f2;
+<style lang="scss" scoped>
+main {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 h1 {
   font-size: 3rem;
