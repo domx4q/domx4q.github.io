@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79bbc42a-8d7d-43ca-b466-b2319c761d3b" name="Changes" comment="created vite vue app">
-      <change beforePath="$PROJECT_DIR$/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TheWelcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TheWelcome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WelcomeItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WelcomeItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__tests__/HelloWorld.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/__tests__/HelloWorld.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomeView.vue" afterDir="false" />
+    <list default="true" id="79bbc42a-8d7d-43ca-b466-b2319c761d3b" name="Changes" comment="added .idea files">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689383084327</updated>
-      <workItem from="1689383085441" duration="630000" />
+      <workItem from="1689383085441" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="created vite vue app">
       <option name="closed" value="true" />
@@ -84,14 +76,43 @@
       <option name="project" value="LOCAL" />
       <updated>1689383566892</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="run prettier">
+      <option name="closed" value="true" />
+      <created>1689383739375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689383739375</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added .idea files">
+      <option name="closed" value="true" />
+      <created>1689383761948</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689383761948</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created vite vue app" />
-    <option name="LAST_COMMIT_MESSAGE" value="created vite vue app" />
+    <MESSAGE value="run prettier" />
+    <MESSAGE value="added .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .idea files" />
   </component>
 </project>
